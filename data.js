@@ -68,7 +68,7 @@ const PROJECTS = [
 
   {
     id: "Youtube",
-    n: "Minecraft Channel",
+    n: "Youtube",
     t: "YouTube content",
     k: ["YouTube", "Video editing"],
     s: "A Minecraft channel with calm-energy, funny videos.",
