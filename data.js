@@ -104,7 +104,7 @@ const PROJECTS = [
     t: "Donlabs and Projects",
     k: ["donlabs.lat", "techturtles.space"],
     s: "A collection of websites linked to different projects I've done under Donlabs",
-    demo: "donlabs.lat",
+    demo: "https://donlabs.lat",
     h: [
       "Donlabs: A website for my company",
       "Tech Turtles: A website for my independent tech projects and tutorials",
