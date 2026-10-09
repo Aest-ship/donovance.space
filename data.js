@@ -33,7 +33,7 @@ const PROJECTS = [
     t: "Fashion magazine",
     k: ["Editorial layout", "Photo editing", "Styling"],
     demo: "Magazine.html",
-    img: "magazine.png",   // save your cover next to index.html with this name
+    img: "assets/photos/magazine.png",   // save your cover next to index.html with this name
     s: "A fashion magazine issue built around my own looks: monochrome, vintage, streetwear and gothic style, closing with a manifesto on presence over noise.",
     h: [
       "Editorial spreads: Rugged Silence, Dream, What's my style?, Be you",
@@ -51,9 +51,9 @@ const PROJECTS = [
     k: ["Rust", "JavaScript", "OpenRouter API", "Claude Sonet-5, Claude Haiku 4.5, NVIDIA nemotron 3 Ultra 550B :Free"],
     demo: "demo.html",
     imgs: [
-      { src: "image.png",  cap: "expanded island" },
-      { src: "image1.png", cap: "collapsed" },
-      { src: "image2.png", cap: "compact with clock" }
+      { src: "assets/photos/image.png",  cap: "expanded island" },
+      { src: "assets/photos/image1.png", cap: "collapsed" },
+      { src: "assets/photos/image2.png", cap: "compact with clock" }
       
     ],
     s: "A desktop AI assistant built from scratch, with an animated face that lives on the center top of your desktop screen and runs simple tasks for you.",
@@ -64,31 +64,34 @@ const PROJECTS = [
     ]
   },
 
-  {
-    id: "tenis",
-    n: "Tenis UFMS",
-    t: "Coaching program",
-    k: ["PowerPoint", "Microsoft Forms", "Power Automate", "OneDrive", "WhatsApp"],
-    s: "The instructional and administrative system behind my tennis coaching at UFMS, built to run in Portuguese and English on court.",
-    h: [
-      "Bilingual welcome messages, class scripts and grip references",
-      "Beginner 7-day schedule",
-      "Attendance automation with excel Forms, Power Automate and OneDrive",
-      "WhatsApp group and mail-merge workflows"
-    ]
-  },
-
-  
+ 
 
   {
-    id: "minecraft",
+    id: "Youtube",
     n: "Minecraft Channel",
     t: "YouTube content",
     k: ["YouTube", "Video editing"],
     s: "A Minecraft channel with calm-energy, funny videos.",
     h: [
       "10 to 20+ minute episodes",
-      "Mix of already-built and live-recorded footage"
+      "Mix of reality and curated content for the best experinces"
+    ]
+  },
+
+  {
+    id:"Bubble",
+    n: "Bubble Apps",
+    t: "No-code web apps",
+    k: ["Bubble.io", "No-code", "Web apps"],
+    imgs:[
+      { src: "assets/photos/bubble1.png", cap: "Bubble app 1" },
+      { src: "assets/photos/bubble2.png", cap: "Bubble app 2" },
+      { src: "assets/photos/bubble3.png", cap: "Bubble app 3" }
+    ],
+    s: "A collection of web apps built with Bubble.io, a no-code platform.",
+    h: [
+      "Web apps for various purposes, including social media, productivity, Communnities, and entertainment",
+      "Built with Bubble.io, a no-code platform that allows for rapid development and deployment"
     ]
   },
 
@@ -99,7 +102,7 @@ const PROJECTS = [
     id: "websites",
     n: "Websites Linked to my different projects Development",
     t: "Donlabs and Projects",
-    k: ["donlabs.lat", "techturtles.space", "coraçoes.lat"],
+    k: ["donlabs.lat", "techturtles.space"],
     s: "A collection of websites linked to different projects I've done under Donlabs",
     demo: "donlabs.lat",
     h: [
